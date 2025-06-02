@@ -1,98 +1,70 @@
-# SpaceX Explorer - Aplicação React
+# Getting Started with Create React App
 
-![SpaceX Explorer Screenshot](public/screenshot.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Descrição
+## Available Scripts
 
-SpaceX Explorer é uma aplicação web construída com React que consome a API pública da SpaceX para exibir informações sobre foguetes, lançamentos e cápsulas espaciais. A aplicação oferece uma interface intuitiva e visualmente atraente para explorar os dados do programa espacial da SpaceX.
+In the project directory, you can run:
 
-## Funcionalidades
+### `npm start`
 
-- Visualização de foguetes da SpaceX (Falcon 1, Falcon 9, Falcon Heavy, Starship)
-- Listagem de lançamentos recentes com status de sucesso/falha
-- Informações sobre cápsulas espaciais
-- Design responsivo que funciona em desktop e mobile
-- Animações e efeitos visuais temáticos
-- Navegação entre páginas
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Tecnologias Utilizadas
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- React.js
-- React Router
-- Axios (para requisições HTTP)
-- CSS Modules
-- Font Awesome (ícones)
-- SpaceX API (v4)
+### `npm test`
 
-## Como Executar o Projeto
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Pré-requisitos
+### `npm run build`
 
-- Node.js (v14 ou superior)
-- npm (v6 ou superior)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Instalação
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone o repositório:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-git clone https://github.com/seu-usuario/spacex-explorer.git
-cd spacex-explorer
-```
+### `npm run eject`
 
-2. Instale as dependências:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```bash
-npm install
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-3. Inicie o servidor de desenvolvimento:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```bash
-npm start
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-4. Acesse a aplicação no navegador:
+## Learn More
 
-```
-http://localhost:3000
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Estrutura do Projeto
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```
-spacex-explorer/
-├── public/                  # Arquivos públicos
-├── src/
-│   ├── components/          # Componentes reutilizáveis
-│   ├── pages/               # Páginas da aplicação
-│   ├── services/            # Serviços (API calls)
-│   ├── App.js               # Componente principal
-│   ├── App.css              # Estilos globais
-│   └── index.js             # Ponto de entrada
-├── package.json
-└── README.md
-```
+### Code Splitting
 
-## API Utilizada
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-A aplicação consome a API pública da SpaceX (v4):
-- Documentação: [https://docs.spacexdata.com/](https://docs.spacexdata.com/)
-- Endpoints utilizados:
-  - Foguetes: `https://api.spacexdata.com/v4/rockets`
-  - Lançamentos: `https://api.spacexdata.com/v4/launches`
-  - Cápsulas: `https://api.spacexdata.com/v4/capsules`
+### Analyzing the Bundle Size
 
-## Contribuição
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Contribuições são bem-vindas! Siga os passos abaixo:
+### Making a Progressive Web App
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Licença
+### Advanced Configuration
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
